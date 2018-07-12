@@ -13,4 +13,14 @@ using namespace std;
 int main()
 {
 	int i = DDRInput();
+	int bpm = 0;
+	cout << "BPM?" << endl;
+	cin >> bpm;
+
+	bool songRunning = true;
+
+	Metronome metro;
+	milliseconds bpm;
+
+
 }
